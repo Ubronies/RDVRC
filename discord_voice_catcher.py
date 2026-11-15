@@ -44,7 +44,7 @@ import threading
 import time
 
 APP_NAME = "Discord Voice Catcher"
-APP_VERSION = "4.0"
+APP_VERSION = "1.0"
 
 HOST_TIMEOUT = 25.0         # сек: WebSocket CONNECT без CONNECTED
 MEDIA_TIMEOUT = 15.0        # сек: Creating connection без "RTC connected"
