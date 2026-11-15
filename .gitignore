@@ -1,0 +1,37 @@
+# Сборки PyInstaller
+dist/
+build/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Данные программы (личные: IP провайдера/VPN, история подключений)
+state.json
+report.csv
+ips.txt
+all-ips.txt
+domains.txt
+discord-routes.bat
+app.ico
+data*/
+
+# Секреты и локальные настройки
+.env
+.env.*
+*.key
+*.pem
+secrets*
+
+# Логи и мусор
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
